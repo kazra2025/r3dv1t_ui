@@ -28,7 +28,7 @@
                 "${workspaceFolder}/scriptz/vscode_tasks/drop_garbage.py"
             ],
             "presentation": {
-                "reveal": "always",
+                "reveal": "silent",
                 "panel": "dedicated"
             },
             "problemMatcher": []
