@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "checkJs": true,
+        "target": "es2023",
+        "jsx": "preserve",
+        // "target": "ESNext",
+        // "strict": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "src_ui/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "artifactz"
+    ]
+}
