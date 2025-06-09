@@ -13,7 +13,7 @@ execSync(`mkdir -p ${artifactz_path}/static`, { stdio: 'inherit' });
 
 // copy the index.html file to the artifactz folder
 execSync(`cp ${repo_root}/public/index.html ${artifactz_path}`, { stdio: 'inherit' });
-execSync(`cp ${repo_root}/public/favicon.svg ${artifactz_path}/static`, { stdio: 'inherit' });
+execSync(`cp ${repo_root}/public/favicon.png ${artifactz_path}/static`, { stdio: 'inherit' });
 
 // ----- build the React app
 
